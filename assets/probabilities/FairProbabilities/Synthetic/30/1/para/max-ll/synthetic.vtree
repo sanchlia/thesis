@@ -1,0 +1,76 @@
+c this file was saved by LogicCircuits.jl
+c ids of vtree nodes start at 0
+c ids of variables start at 1
+c vtree nodes appear bottom-up, children before parents
+c
+c file syntax:
+c vtree number-of-nodes-in-vtree
+c L id-of-leaf-vtree-node id-of-variable
+c I id-of-internal-vtree-node id-of-left-child id-of-right-child
+c
+vtree 65
+L 0 33
+L 1 1
+I 2 0 1
+L 3 32
+L 4 11
+L 5 16
+L 6 12
+L 7 8
+L 8 13
+I 9 7 8
+L 10 25
+L 11 28
+L 12 29
+L 13 2
+L 14 23
+I 15 13 14
+I 16 12 15
+I 17 11 16
+I 18 10 17
+I 19 9 18
+I 20 6 19
+I 21 5 20
+L 22 26
+L 23 4
+L 24 14
+L 25 30
+L 26 7
+L 27 17
+L 28 20
+L 29 24
+I 30 28 29
+I 31 27 30
+I 32 26 31
+I 33 25 32
+I 34 24 33
+L 35 19
+L 36 5
+L 37 9
+L 38 27
+I 39 37 38
+I 40 36 39
+I 41 35 40
+I 42 34 41
+I 43 23 42
+L 44 21
+L 45 3
+L 46 10
+I 47 45 46
+L 48 6
+I 49 47 48
+L 50 18
+L 51 15
+I 52 50 51
+L 53 22
+L 54 31
+I 55 53 54
+I 56 52 55
+I 57 49 56
+I 58 44 57
+I 59 43 58
+I 60 22 59
+I 61 21 60
+I 62 4 61
+I 63 3 62
+I 64 2 63

@@ -1,0 +1,34 @@
+{
+    "dataset": {
+        "synthetic_20":{
+            "name": "synthetic_20",
+            "label": "Df",
+            "noisy_label": "D",
+            "sensitive_attribute": "S",
+            "data_path": "data/synthetic_data/20.csv",
+            "splits_path": "data/splited_data/10-cv/synthetic/20", 
+            "label_path": "data/noisy_label/synthetic_20",
+            "noise_type": null,
+            "noise_level": null,
+            "exp_name": "synthetic", 
+            "fair_path": "FairProbabilities/synthetic_20",
+            "emp_path": null 
+
+        }
+    },
+    "experiment":{ 
+        "1":{
+            "fold": [1,2,3,4,5,6,7,8,9,10],
+            "pre-processing": null,
+            "threshold": [],
+            "learning": ["LR","reduction", "reweight"],
+            "probability_path": "/Users/sauravanchlia/Fair_ML/Projects/FairnessUnderLabelBias/FairProbabilities/Adult/1/para/max-ll/predict-per-example-proxy-label.csv",
+            "metrics": {
+                "fairness": ["DP", "EQ", "EOp"],
+                "accuracy": ["accuracy", "precision", "recall", "f1"],
+                "estimates": "True"
+            }
+        }
+    }
+    
+}

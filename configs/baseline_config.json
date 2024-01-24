@@ -1,0 +1,58 @@
+{
+    "income": {
+        "name": "income",
+        "label": "D",
+        "sensitive_attribute": "F9",
+        "splits_path": "data/splited_data/10-cv/income",
+        "data_path": "data/processed_data/income_binerized.csv",
+        "majority_group": 1,
+        "positive_class": 1,
+        "emp_path": null,
+        "fair_path": "assets/probabilities/FairProbabilities/income",
+        "noise_type": null,
+        "noise_level": null,
+        "exp_name": "income"
+    },
+    "adult": {
+        "name": "adult",
+        "label": "target",
+        "sensitive_attribute": "sex",
+        "splits_path": "data/splited_data/10-cv/adult/",
+        "data_path": "data/processed_data/adult_binerized.csv",
+        "majority_group": 1,
+        "positive_class": 1,
+        "emp_path": null,
+        "fair_path": "assets/probabilities/FairProbabilities/adult",
+        "noise_type": null,
+        "noise_level": null,
+        "exp_name": "adult"
+    },
+    "COMPAS": {
+        "name": "COMPAS",
+        "label": "ScoreText_",
+        "sensitive_attribute": "Ethnic_Code_Text_",
+        "splits_path": "data/splited_data/10-cv/compas/",
+        "data_path": "data/processed_data/compas_binerized.csv",
+        "majority_group": 0,
+        "positive_class": 1,
+        "emp_path": null,
+        "fair_path": "assets/probabilities/FairProbabilities/COMPAS",
+        "noise_type": null,
+        "noise_level": null,
+        "exp_name": "COMPAS"
+    },
+    "synthetic_20": {
+        "name": "synthetic_20",
+        "label": "Df",
+        "sensitive_attribute": "S",
+        "splits_path": "data/splited_data/10-cv/synthetic/20",
+        "data_path": "data/synthetic_data/20.csv",
+        "majority_group": 0,
+        "positive_class": 1,
+        "emp_path": null,
+        "fair_path": "assets/probabilities/FairProbabilities/synthetic_20",
+        "noise_type": null,
+        "noise_level": null,
+        "exp_name": "synthetic_20"
+    }
+}

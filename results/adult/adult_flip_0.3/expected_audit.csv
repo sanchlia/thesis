@@ -1,0 +1,361 @@
+,est_acc,est_eop
+0,0.7853936056422701,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+1,0.806880108011254,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+2,0.8550276284264902,"event    group_id
+label=0  0           0.006908
+         1           0.006908
+label=1  0           0.040733
+         1           0.040733
+dtype: float64"
+3,0.7603244385914731,"event    group_id
+label=0  0           0.022701
+         1           0.017936
+label=1  0           0.052557
+         1           0.136545
+dtype: float64"
+4,0.8391126465100212,"event    group_id
+label=0  0           0.072851
+         1           0.072851
+label=1  0           0.429584
+         1           0.429584
+dtype: float64"
+5,0.8226438602388061,"event    group_id
+label=0  0           0.115078
+         1           0.090922
+label=1  0           0.266423
+         1           0.692179
+dtype: float64"
+6,0.7796709271581677,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+7,0.810436520762387,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+8,0.8124263693046399,"event    group_id
+label=0  0           0.011646
+         1           0.011646
+label=1  0           0.051017
+         1           0.051017
+dtype: float64"
+9,0.7531633898234398,"event    group_id
+label=0  0           0.025624
+         1           0.020340
+label=1  0           0.059501
+         1           0.149949
+dtype: float64"
+10,0.824039218241955,"event    group_id
+label=0  0           0.120792
+         1           0.120792
+label=1  0           0.529160
+         1           0.529160
+dtype: float64"
+11,0.8219631042413931,"event    group_id
+label=0  0           0.147928
+         1           0.117426
+label=1  0           0.343510
+         1           0.865676
+dtype: float64"
+12,0.7754328234599253,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+13,0.802916023910479,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+14,0.8285106127447348,"event    group_id
+label=0  0           0.019948
+         1           0.019948
+label=1  0           0.089796
+         1           0.089796
+dtype: float64"
+15,0.7639022688224394,"event    group_id
+label=0  0           0.034423
+         1           0.027274
+label=1  0           0.080476
+         1           0.207824
+dtype: float64"
+16,0.8240077468734587,"event    group_id
+label=0  0           0.118655
+         1           0.118655
+label=1  0           0.534134
+         1           0.534134
+dtype: float64"
+17,0.8186678803860338,"event    group_id
+label=0  0           0.147716
+         1           0.117039
+label=1  0           0.345338
+         1           0.891816
+dtype: float64"
+18,0.7897546814005588,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+19,0.8115838771535759,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+20,0.8412740943990896,"event    group_id
+label=0  0          -0.002755
+         1          -0.002755
+label=1  0          -0.014228
+         1          -0.014228
+dtype: float64"
+21,0.7607051097497343,"event    group_id
+label=0  0           0.001083
+         1           0.000851
+label=1  0           0.002483
+         1           0.006623
+dtype: float64"
+22,0.8375368992679145,"event    group_id
+label=0  0           0.090267
+         1           0.090267
+label=1  0           0.466152
+         1           0.466152
+dtype: float64"
+23,0.8210711326683677,"event    group_id
+label=0  0           0.117957
+         1           0.092681
+label=1  0           0.270356
+         1           0.721104
+dtype: float64"
+24,0.7999804456591533,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+25,0.8137648517473313,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+26,0.8388083110972677,"event    group_id
+label=0  0           0.007962
+         1           0.007962
+label=1  0           0.039166
+         1           0.039166
+dtype: float64"
+27,0.7751866169554588,"event    group_id
+label=0  0           0.025269
+         1           0.019387
+label=1  0           0.056020
+         1           0.171161
+dtype: float64"
+28,0.8430131034358357,"event    group_id
+label=0  0           0.101054
+         1           0.101054
+label=1  0           0.497082
+         1           0.497082
+dtype: float64"
+29,0.820300671039507,"event    group_id
+label=0  0           0.137737
+         1           0.105672
+label=1  0           0.305356
+         1           0.932964
+dtype: float64"
+30,0.8080512906128372,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+31,0.8170292926962851,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+32,0.8502509050785583,"event    group_id
+label=0  0           0.036481
+         1           0.036481
+label=1  0           0.176590
+         1           0.176590
+dtype: float64"
+33,0.7758478860722778,"event    group_id
+label=0  0           0.047946
+         1           0.037199
+label=1  0           0.108325
+         1           0.311948
+dtype: float64"
+34,0.8495971376347613,"event    group_id
+label=0  0           0.125873
+         1           0.125873
+label=1  0           0.609305
+         1           0.609305
+dtype: float64"
+35,0.826661345305789,"event    group_id
+label=0  0           0.157192
+         1           0.121957
+label=1  0           0.355145
+         1           1.022724
+dtype: float64"
+36,0.7854812987334489,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+37,0.809149288822599,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+38,0.8342666990303124,"event    group_id
+label=0  0           0.010668
+         1           0.010668
+label=1  0           0.057473
+         1           0.057473
+dtype: float64"
+39,0.7646651615971429,"event    group_id
+label=0  0           0.029918
+         1           0.023394
+label=1  0           0.067612
+         1           0.182879
+dtype: float64"
+40,0.8377903216082926,"event    group_id
+label=0  0           0.091028
+         1           0.091028
+label=1  0           0.490423
+         1           0.490423
+dtype: float64"
+41,0.8271240457289313,"event    group_id
+label=0  0           0.130300
+         1           0.101884
+label=1  0           0.294463
+         1           0.796476
+dtype: float64"
+42,0.7924378707357872,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+43,0.8088275736404771,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+44,0.8534130311556043,"event    group_id
+label=0  0           0.011682
+         1           0.011682
+label=1  0           0.064118
+         1           0.064118
+dtype: float64"
+45,0.7640436192864155,"event    group_id
+label=0  0           0.028467
+         1           0.022016
+label=1  0           0.063828
+         1           0.186085
+dtype: float64"
+46,0.8287141141944567,"event    group_id
+label=0  0           0.125821
+         1           0.125821
+label=1  0           0.690559
+         1           0.690559
+dtype: float64"
+47,0.8187576997428283,"event    group_id
+label=0  0           0.175760
+         1           0.135930
+label=1  0           0.394081
+         1           1.148905
+dtype: float64"
+48,0.8005081961578703,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+49,0.8127805291021375,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+50,0.8511481803391949,"event    group_id
+label=0  0           0.019436
+         1           0.019436
+label=1  0           0.094110
+         1           0.094110
+dtype: float64"
+51,0.7675876204889268,"event    group_id
+label=0  0           0.027247
+         1           0.020889
+label=1  0           0.060764
+         1           0.189183
+dtype: float64"
+52,0.8476869252839583,"event    group_id
+label=0  0           0.111851
+         1           0.111851
+label=1  0           0.541576
+         1           0.541576
+dtype: float64"
+53,0.8250685682233034,"event    group_id
+label=0  0           0.139508
+         1           0.106953
+label=1  0           0.311115
+         1           0.968629
+dtype: float64"
+54,0.783566517115558,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+55,0.8108155486369035,"event    group_id
+label=0  0          NaN
+         1          NaN
+label=1  0          NaN
+         1          NaN
+dtype: float64"
+56,0.8519673052419181,"event    group_id
+label=0  0           0.014521
+         1           0.014521
+label=1  0           0.078070
+         1           0.078070
+dtype: float64"
+57,0.7592571784844493,"event    group_id
+label=0  0           0.025028
+         1           0.019265
+label=1  0           0.055961
+         1           0.169007
+dtype: float64"
+58,0.8195365059224206,"event    group_id
+label=0  0           0.110377
+         1           0.110377
+label=1  0           0.593414
+         1           0.593414
+dtype: float64"
+59,0.823565107403892,"event    group_id
+label=0  0           0.145880
+         1           0.112288
+label=1  0           0.326174
+         1           0.985076
+dtype: float64"

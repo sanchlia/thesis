@@ -1,0 +1,7 @@
+dataset,variable,TP,TN,FP,FN,accuracy
+train_x,Df,3816,3919,267,98,0.9549382716049383
+train_x,D,3914,4186,0,0,1.0
+valid_x,Df,432,441,18,9,0.97
+valid_x,D,441,459,0,0,1.0
+test_x,Df,482,481,25,12,0.963
+test_x,D,494,506,0,0,1.0

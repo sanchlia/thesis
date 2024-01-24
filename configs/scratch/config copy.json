@@ -1,0 +1,60 @@
+{
+    "dataset": {
+        "income":{
+            "name": "income",
+            "label": "D",
+            "sensitive_attribute": "F9",
+            "data_path": "data/processed_data/income_binerized.csv",
+            "splits_path": "data/splited_data/10-cv/income", 
+            "label_path": "data/noisy_label/income",
+            "noise_type": ["Ground", "bias", "flip", "balanced"],
+            "noise_level": ["0.4", "0.6"]
+        },
+        "adult":{
+            "name": "adult",
+            "label": "target",
+            "sensitive_attribute": "sex",
+            "data_path": "data/processed_data/adult_binerized.csv",
+            "splits_path": "data/splited_data/10-cv/adult/",
+            "label_path": "data/noisy_label/adult",
+            "noise_type": ["Ground", "bias", "flip", "balanced"],
+            "noise_level": ["0.4", "0.6"]
+        },
+        "COMPAS":{
+            "name": "COMPAS",
+            "label": "ScoreText_",
+            "sensitive_attribute": "Ethnic_Code_Text_",
+            "data_path": "data/processed_data/compas_binerized.csv",
+            "splits_path": "data/splited_data/10-cv/compas/",
+            "label_path": "data/noisy_label/compas",
+            "noise_type": ["Ground", "bias", "flip", "balanced"],
+            "noise_level": ["0.4", "0.6"]
+        },
+        "synthetic_20":{
+            "name": "synthetic_20",
+            "label": "D",
+            "ground_truth": "Df",
+            "sensitive_attribute": "S",
+            "data_path": "data/synthetic_data/20.csv",
+            "splits_path": "data/splited_data/10-cv/synthetic/20", 
+            "label_path": "data/noisy_label/synthetic_20",
+            "noise_type": ["Ground", "bias", "flip", "balanced"],
+            "noise_level": ["0.4", "0.6"]
+        }
+    },
+    "experiment":{ 
+        "1":{
+            "fold": [1,2,3,4,5,6,7,8,9,10],
+            "pre-processing": null,
+            "threshold": [],
+            "learning": ["LR","reduction", "reweight"],
+            "probability_path": "/Users/sauravanchlia/Fair_ML/Projects/FairnessUnderLabelBias/FairProbabilities/Adult/1/para/max-ll/predict-per-example-proxy-label.csv",
+            "metrics": {
+                "fairness": ["DP", "EQ", "EOp"],
+                "accuracy": ["accuracy", "precision", "recall", "f1"],
+                "estimates": "True"
+            }
+        }
+    }
+    
+}

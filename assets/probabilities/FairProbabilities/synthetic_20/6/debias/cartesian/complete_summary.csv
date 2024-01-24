@@ -1,0 +1,2 @@
+,experiment,fold,eval_type,stage,expected_acc,WEOp,WEQ
+0,LR,6,ground,ground,0.8028083625098033,0.04560104492932271,0.13957804019419218
