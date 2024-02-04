@@ -12,7 +12,9 @@
         "name": "COMPAS",
         "noise_type": "bias",
         "noise_level": "0.1",
-        "ground_data": "data/processed_data/compas_binerized.csv"
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 0,
+        "beta_shift": 1
     },
     "COMPAS_bias_0.3": {
         "label": "ScoreText_",
@@ -27,7 +29,9 @@
         "name": "COMPAS",
         "noise_type": "bias",
         "noise_level": "0.3",
-        "ground_data": "data/processed_data/compas_binerized.csv"
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 0,
+        "beta_shift": 1
     },
     "COMPAS_flip_0.1": {
         "label": "ScoreText_",
@@ -42,7 +46,9 @@
         "name": "COMPAS",
         "noise_type": "flip",
         "noise_level": "0.1",
-        "ground_data": "data/processed_data/compas_binerized.csv"
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 0,
+        "beta_shift": 1
     },
     "COMPAS_flip_0.3": {
         "label": "ScoreText_",
@@ -57,7 +63,9 @@
         "name": "COMPAS",
         "noise_type": "flip",
         "noise_level": "0.3",
-        "ground_data": "data/processed_data/compas_binerized.csv"
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 0,
+        "beta_shift": 1
     },
     "COMPAS_balanced_0.1": {
         "label": "ScoreText_",
@@ -72,7 +80,9 @@
         "name": "COMPAS",
         "noise_type": "balanced",
         "noise_level": "0.1",
-        "ground_data": "data/processed_data/compas_binerized.csv"
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 0,
+        "beta_shift": 1
     },
     "COMPAS_balanced_0.3": {
         "label": "ScoreText_",
@@ -87,6 +97,110 @@
         "name": "COMPAS",
         "noise_type": "balanced",
         "noise_level": "0.3",
-        "ground_data": "data/processed_data/compas_binerized.csv"
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 0,
+        "beta_shift": 1
+    },
+    "COMPAS_bias_0.1_cov": {
+        "label": "ScoreText_",
+        "sensitive_attribute": "Ethnic_Code_Text_",
+        "splits_path": "data/covariate_shifted_data/compas/bias/0.1/",
+        "majority_group": 0,
+        "positive_class": 1,
+        "data_path": "assets/noisy_datasets/COMPAS/bias/0.1/COMPAS_binerized.csv",
+        "emp_path": "assets/noisy_datasets/COMPAS/bias/0.1/COMPAS_probs.csv",
+        "fair_path": "assets/probabilities/FairProbabilities/COMPAS/bias/0.1",
+        "exp_name": "COMPAS_bias_0.1",
+        "name": "COMPAS",
+        "noise_type": "bias",
+        "noise_level": "0.1",
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 1,
+        "beta_shift": 2
+    },
+    "COMPAS_bias_0.3_cov": {
+        "label": "ScoreText_",
+        "sensitive_attribute": "Ethnic_Code_Text_",
+        "splits_path": "data/covariate_shifted_data/compas/bias/0.3/",
+        "majority_group": 0,
+        "positive_class": 1,
+        "data_path": "assets/noisy_datasets/COMPAS/bias/0.3/COMPAS_binerized.csv",
+        "emp_path": "assets/noisy_datasets/COMPAS/bias/0.3/COMPAS_probs.csv",
+        "fair_path": "assets/probabilities/FairProbabilities/COMPAS/bias/0.3",
+        "exp_name": "COMPAS_bias_0.3",
+        "name": "COMPAS",
+        "noise_type": "bias",
+        "noise_level": "0.3",
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 1,
+        "beta_shift": 2
+    },
+    "COMPAS_flip_0.1_cov": {
+        "label": "ScoreText_",
+        "sensitive_attribute": "Ethnic_Code_Text_",
+        "splits_path": "data/covariate_shifted_data/compas/flip/0.1/",
+        "majority_group": 0,
+        "positive_class": 1,
+        "data_path": "assets/noisy_datasets/COMPAS/flip/0.1/COMPAS_binerized.csv",
+        "emp_path": "assets/noisy_datasets/COMPAS/flip/0.1/COMPAS_probs.csv",
+        "fair_path": "assets/probabilities/FairProbabilities/COMPAS/flip/0.1",
+        "exp_name": "COMPAS_flip_0.1",
+        "name": "COMPAS",
+        "noise_type": "flip",
+        "noise_level": "0.1",
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 1,
+        "beta_shift": 2
+    },
+    "COMPAS_flip_0.3_cov": {
+        "label": "ScoreText_",
+        "sensitive_attribute": "Ethnic_Code_Text_",
+        "splits_path": "data/covariate_shifted_data/compas/flip/0.3/",
+        "majority_group": 0,
+        "positive_class": 1,
+        "data_path": "assets/noisy_datasets/COMPAS/flip/0.3/COMPAS_binerized.csv",
+        "emp_path": "assets/noisy_datasets/COMPAS/flip/0.3/COMPAS_probs.csv",
+        "fair_path": "assets/probabilities/FairProbabilities/COMPAS/flip/0.3",
+        "exp_name": "COMPAS_flip_0.3",
+        "name": "COMPAS",
+        "noise_type": "flip",
+        "noise_level": "0.3",
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 1,
+        "beta_shift": 2
+    },
+    "COMPAS_balanced_0.1_cov": {
+        "label": "ScoreText_",
+        "sensitive_attribute": "Ethnic_Code_Text_",
+        "splits_path": "data/covariate_shifted_data/compas/balanced/0.1/",
+        "majority_group": 0,
+        "positive_class": 1,
+        "data_path": "assets/noisy_datasets/COMPAS/balanced/0.1/COMPAS_binerized.csv",
+        "emp_path": "assets/noisy_datasets/COMPAS/balanced/0.1/COMPAS_probs.csv",
+        "fair_path": "assets/probabilities/FairProbabilities/COMPAS/balanced/0.1",
+        "exp_name": "COMPAS_balanced_0.1",
+        "name": "COMPAS",
+        "noise_type": "balanced",
+        "noise_level": "0.1",
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 1,
+        "beta_shift": 2
+    },
+    "COMPAS_balanced_0.3_cov": {
+        "label": "ScoreText_",
+        "sensitive_attribute": "Ethnic_Code_Text_",
+        "splits_path": "data/covariate_shifted_data/compas/balanced/0.3/",
+        "majority_group": 0,
+        "positive_class": 1,
+        "data_path": "assets/noisy_datasets/COMPAS/balanced/0.3/COMPAS_binerized.csv",
+        "emp_path": "assets/noisy_datasets/COMPAS/balanced/0.3/COMPAS_probs.csv",
+        "fair_path": "assets/probabilities/FairProbabilities/COMPAS/balanced/0.3",
+        "exp_name": "COMPAS_balanced_0.3",
+        "name": "COMPAS",
+        "noise_type": "balanced",
+        "noise_level": "0.3",
+        "ground_data": "data/processed_data/compas_binerized.csv",
+        "alpha_shift": 1,
+        "beta_shift": 2
     }
 }
